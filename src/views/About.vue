@@ -2,6 +2,8 @@
   <div class="about">
     <h1>About Us</h1>
 
+    <!-- TODO: Alter text for Lao Bible Studies -->
+
     <p>
       The last iteration of the Lao Books series apps,
       crafted from sources like

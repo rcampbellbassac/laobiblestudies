@@ -1,6 +1,6 @@
 {
-  "name": "LaoBible",
-  "short_name": "LaoBible",
+  "name": "LaoBibleStudies",
+  "short_name": "LaoBibleStudies",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
@@ -16,5 +16,5 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#eeeeee",
-  "theme_color": "#ff9800"
+  "theme_color": "#4527a0"
 }
