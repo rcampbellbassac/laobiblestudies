@@ -44,7 +44,7 @@ export default new Vuex.Store({
           // https://s3-us-west-2.amazonaws.com/laoadventist-media/LaoEGW.json - EGW
           // https://s3-us-west-2.amazonaws.com/laoadventist-media/LaoHealthBooks.json - HB
           // https://s3-us-west-2.amazonaws.com/laoadventist-media/LaoSongs.json - LS
-          fetch('https://s3-us-west-2.amazonaws.com/laoadventist-media/LaoBibleStudies.json')
+          fetch('https://laoadventist-media.s3-us-west-2.amazonaws.com/LaoBibleStudies.json')
             .then((response) => (response.json()))
             .then(async (responseJSON) => {
               await localforage.setItem('LaoBibleStudies', responseJSON)
